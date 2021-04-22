@@ -1,5 +1,5 @@
 資工一 吳俊億 110910528
-##第一題  檔案 star.js
+## 第一題  檔案 star.js
 ```
 function star(n)
 {
@@ -21,7 +21,7 @@ PS C:\Users\88698\Desktop\ccc net\wp109b\week6> deno run star.js
 *
 *
 ```
-##第二題  檔案 star.js
+## 第二題  檔案 star.js
 ```
 function between(a,r)
 {
@@ -44,7 +44,7 @@ PS C:\Users\88698\Desktop\ccc net\wp109b\week6> deno run between.js
 10
 11
 ```
-##第三題  檔案 betweenPrime.js
+## 第三題  檔案 betweenPrime.js
 ```
 function isPrime(n){
     if(n<2)
