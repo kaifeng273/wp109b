@@ -21,7 +21,7 @@ PS C:\Users\88698\Desktop\ccc net\wp109b\week6> deno run star.js
 *
 *
 ```
-## 第二題  檔案 star.js
+## 第二題  檔案 .js
 ```
 function between(a,r)
 {
