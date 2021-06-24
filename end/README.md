@@ -84,7 +84,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+```
+網頁預設
+```
 body {
     margin: auto;
     display: flex;
@@ -94,6 +96,8 @@ body {
     background:#4119f3; 
     height: 500px;
 }
+```
+```
 .text{
     color: #fff;
     font-weight: normal;
@@ -124,6 +128,9 @@ body {
 .body_change{
     background-color: #1fb800; 
 }
+```
+記分板(css)
+```
 .score_board{   
     color: white;
     font-weight: 500;
