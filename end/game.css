@@ -18,7 +18,6 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -42,14 +41,13 @@ table {
     border-spacing: 0;
 }
 
-/* 置中畫面 */
 body {
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background:#2d5959; 
+    background:#4119f3; 
     height: 500px;
 }
 .text{
@@ -71,7 +69,7 @@ body {
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
 }
 .again:hover{
-    background-color: rgb(226, 162, 43);
+    background-color: rgb(13, 212, 185);
     color: black;
     font-weight: 700;
     font-size: 16px;
@@ -80,10 +78,9 @@ body {
     display: none;
 }
 .body_change{
-    background-color: #cc3737; 
+    background-color: #1fb800; 
 }
-.score_board{
-    /* display: none; */
+.score_board{   
     color: white;
     font-weight: 500;
     font-size: 16px;
