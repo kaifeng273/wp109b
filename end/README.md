@@ -153,7 +153,9 @@ let game_stop = false; // 遊戲中止判定
 let time_start = 0;
 let bg_ori = '#4119f3';
 let high_score = [];
-
+```
+背景顏色改變
+```
 function background_change(){
     if (bg_change === false){
         let color_arr = [] 
@@ -167,12 +169,18 @@ function background_change(){
         time_start = new Date(); // 計時開始
     }   
 }
+```
+背景顏色重置
+```
 function background_remove() {
     if (bg_change === true){
         document.querySelector("body").style.backgroundColor = bg_ori;
-        bg_change = false; //遊戲重置
+        bg_change = false; 
     }    
 }
+```
+button出現遊戲暫停
+```
 function show_btn() {
     if (btn_show === false){
         document.querySelector(".again").classList.remove("again_hide");
@@ -187,6 +195,9 @@ function hide_btn() {
         game_stop = false; // button消失遊戲開始
     }
 }
+```
+遊戲開始
+```
 function start() {
     // 前置條件
     if (game_stop) return //如有任何開關為開啟即返回,不得開始
@@ -202,6 +213,9 @@ function start() {
     }
 }
 // game& timer
+```
+遊戲內容
+```
 function game() {
     document.querySelector("body").addEventListener("click",
         function(e) {
@@ -221,6 +235,9 @@ function game() {
         } 
     )
 }
+```
+反應時間判斷
+```
 function show_score() {
     const score_li = document.querySelectorAll("li");
     for(let i=0;i<high_score.length;i++){
@@ -237,7 +254,9 @@ function sort_score(high_score, score) {
     }
     return 0; 
 }
-// 反應時間排名
+```
+反應時間紀錄榜
+```
 function react_score(score) {
     document.querySelector("h4").innerText = "你已經超越榜上玩家，更新榜上紀錄";
     if(high_score.length < 1){ // array為空
@@ -255,7 +274,9 @@ function react_score(score) {
         }
     }
 }
-// reset
+```
+遊戲重置
+```
 function reset() {
     document.querySelector(".again").addEventListener("click",
         function(e) {
@@ -272,7 +293,9 @@ function reset() {
         }
     )
 }
-// 主程式
+```
+程式本體
+```
 start();
 document.querySelector("body").addEventListener("click",
     function (e) {
