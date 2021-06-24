@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=nvg4vGI5AI4
 ## 技術手段
 
 html
-```
+```  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,6 +32,8 @@ html
         <li>第1名:從缺</li>
         <li>第2名:從缺</li>
         <li>第3名:從缺</li>
+        <li>第4名:從缺</li>
+        <li>第5名:從缺</li>
     </ul>
     <button class="again again_hide">再玩一次!</button>
     <script src="./game.js"></script>
@@ -111,7 +113,7 @@ body {
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
 }
 .again:hover{
-    background-color: rgb(196, 13, 212);
+    background-color: rgb(13, 212, 185);
     color: black;
     font-weight: 700;
     font-size: 16px;
@@ -134,6 +136,7 @@ body {
     display: none;
     margin-bottom: 20px;
 }
+
 ```
 javascript
 ```
